@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>lalou.jonathan.multiposts</groupId>
+    <version>0.1-SNAPSHOT</version>
+    <artifactId>stepmultiposts-parent</artifactId>
+    <packaging>pom</packaging>
+    <name>StepMultiPosts</name>
+    <modules>
+        <module>multiposts-services</module>
+        <module>multiposts-web</module>
+        <!--<module>primary-source</module>-->
+        <!--<module>servlets</module>-->
+        <!--<module>ejbs</module>-->
+        <!--<module>ear</module>-->
+        <!--<module>site</module>-->
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
